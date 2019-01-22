@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="16dp"
+    android:background="@drawable/gradient"
+    >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="normal"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Please add your emergency Contact Numbers"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="30dp" />
+
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:textColor="#fff"
+
+                    android:id="@+id/Number1"
+                    android:layout_marginBottom="5dp"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:inputType="phone"
+                    android:layout_below="@+id/Number1Text"
+                    android:background="@drawable/rounded_edittext"
+                    android:hint="@string/phone1"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+                <!-- This is a comment -->
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:id="@+id/Number2"
+                    android:textColor="#fff"
+
+                    android:layout_height="50dp"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:inputType="phone"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/Number2Text"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:hint="@string/phone2"
+                    android:background="@drawable/rounded_edittext"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Done"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="Onclick"
+                    android:id="@+id/button"
+                    android:textColor="#fff"
+                    android:background="@drawable/rounded_button"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal">
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+</RelativeLayout>

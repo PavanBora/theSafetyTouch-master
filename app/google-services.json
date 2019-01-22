@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "132931092488",
+    "firebase_url": "https://thesafetytouch-master-7342f.firebaseio.com",
+    "project_id": "thesafetytouch-master-7342f",
+    "storage_bucket": "thesafetytouch-master-7342f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132931092488:android:fd6cc9fd8094e6f2",
+        "android_client_info": {
+          "package_name": "xyz.himanshu.womensafety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132931092488-sa59bnm57ef48865imt68poiiuad1nod.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.himanshu.womensafety",
+            "certificate_hash": "01241c850b58d665d416794131a128a648054817"
+          }
+        },
+        {
+          "client_id": "132931092488-8i30trk06v7v0a11tdt1jnovilatpmv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3RKdJ6XFOojchLOpU1iwv3avj5tGK3yA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132931092488-8i30trk06v7v0a11tdt1jnovilatpmv8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

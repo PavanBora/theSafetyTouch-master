@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">The Push</string>
+    <string name="developers">Developers Team</string>
+    <string name="heading">Safety Tips</string>
+    <string name="tips">1. It is safer for single women in India to live or travel with at least 1 or 2 other people.\n\n 2. Never accept food and drinks from complete strangers.\n
+\n3. Your eye contact with strange men should be brief and never intimate \n \n 4. Never get into a cab or auto that has more than one man sitting in there.
+        \n\n 5. Be alert to your environment and the people around you at all times. \n\n 6. Listen to your gut instinct and don’t second guess it. (It is better to be wrong and safe than wrong and sorry!)
+        \n\n 6. Act on your observations and instincts intelligently.
+        \n\n 7. Donot forget to use The Push App when in danger.
+    </string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_numbers">Add Numbers</string>
+    <string name="addNumber">Add Contact Numbers</string>
+    <string name="message">Tap to message</string>
+    <string name="phone1">Phone Number 1</string>
+    <string name="phone2">Phone Number 2</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_women_security_app">Women Security App</string>
+    <string name="title_activity_tips">Tips</string>
+    <string name="title_activity_main_activityy">MainActivityy</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Text Message</string>
+    <string name="title_notifications">Contacts</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

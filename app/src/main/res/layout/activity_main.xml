@@ -1,0 +1,62 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    tools:context=".MainActivity"
+    android:layout_weight="1"
+    android:background="@drawable/gradient"
+    android:layout_gravity="center"    >
+
+
+
+
+
+
+
+
+
+                <ImageView
+                    android:layout_weight="0.95"
+                    android:layout_width="200dp"
+                    android:src="@drawable/btn"
+                    android:onClick="message"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="200dp" />
+
+                    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:textColor="#fff"
+            android:text="Tips"
+            android:onClick="onclick2"
+            android:layout_weight="0.5"
+            android:layout_marginRight="1dp"
+            android:background="@color/bg"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:textColor="#fff"
+            android:layout_marginLeft="1dp"
+            android:text="Add Contact"
+            android:onClick="onclick"
+            android:layout_weight="0.5"
+            android:background="@color/bg"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
